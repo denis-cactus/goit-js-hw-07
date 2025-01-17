@@ -1,5 +1,5 @@
 # homework
 
-OOP. Classes
+DOM
 
-https://denis-cactus.github.io/goit-js-hw-06/
+https://denis-cactus.github.io/goit-js-hw-07/
