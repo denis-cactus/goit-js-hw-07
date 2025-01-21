@@ -1,4 +1,6 @@
 * {
+
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -11,4 +13,35 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  margin: 0 0 16px;
+}
+
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background: #f6f6fe;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item ul li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 24px;
 }
