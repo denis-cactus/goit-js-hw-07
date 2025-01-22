@@ -8,11 +8,14 @@
   --font-family: "Montserrat", sans-serif;
 }
 button{
+  display: block;
+  font-family: inherit;
   border: none;
   cursor: pointer;
   border-radius: 8px;
   padding: 8px 16px;
   background: #4e75ff;
+  color: #fff;
 }
 button:hover{
   background: #6c8cff;
@@ -43,24 +46,12 @@ input {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  background: #fff;
   border-radius: 8px;
   padding: 24px;
   width: 408px;
   height: 136px;
 }
-.login-form {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  padding: 24px;
-  width: 408px;
-  height: 256px;
-}
-.form-container{
-  margin-bottom: 16px;
-}
+
 img {
   display: block;
   max-width: 100%;
@@ -75,7 +66,9 @@ ul {
 p {
   margin-bottom: 16px;
 }
-
+h1{
+  font-family: var(--font-family);
+}
 h2 {
   margin-bottom: 16px;
   font-family: var(--font-family);
@@ -118,6 +111,14 @@ h2 {
   width: 360px;
   height: 240px;
 }
-label + input {
-  margin-bottom: 8px;
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form button {
+  width: 86px;
+  height: 40px;
+  margin-top: 16px;
 }
