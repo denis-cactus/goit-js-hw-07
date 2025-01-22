@@ -5,9 +5,9 @@
 }
 
 :root {
-  --font-family: "Montserrat", sans-serif;
+  --font-family: 'Montserrat', sans-serif;
 }
-button{
+button {
   display: block;
   font-family: inherit;
   border: none;
@@ -16,12 +16,11 @@ button{
   padding: 8px 16px;
   background: #4e75ff;
   color: #fff;
-
 }
-button:hover{
+button:hover {
   background: #6c8cff;
 }
-label:not(:last-child){
+label:not(:last-child) {
   margin-bottom: 8px;
 }
 body {
@@ -67,7 +66,7 @@ ul {
 p {
   margin-bottom: 16px;
 }
-h1{
+h1 {
   font-family: var(--font-family);
 }
 h2 {
@@ -123,3 +122,23 @@ h2 {
   height: 40px;
   margin-top: 16px;
 }
+#controls button{
+  width: 150px;
+}
+#controls button:last-child{
+  background: #ff4e4e;
+}
+#controls button:last-child:hover{
+  background: #ff7070;
+}
+#controls {
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  justify-content: space-between;
+}
+
